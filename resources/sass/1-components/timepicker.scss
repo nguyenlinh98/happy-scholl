@@ -1,0 +1,7 @@
+[data-controller~="timepicker"]+select.select2-hidden-accessible+span.select2.select2-container {
+    width: 100% !important;
+}
+
+[data-controller~="timepicker"].is-invalid+select.select2-hidden-accessible+span.select2.select2-container .select2-selection {
+    border-color: $danger !important;
+}

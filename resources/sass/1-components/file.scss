@@ -1,0 +1,23 @@
+[data-controller~="file"] {
+    .file--delete {
+        display: inline-block;
+        font-size: 0.9rem;
+        margin-left: 1rem;
+        background: $white;
+        color: $danger;
+        padding: 0px 3px;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: background 200ms ease 0,
+            color 200ms ease;
+    }
+
+    .file--delete:hover {
+        background: $danger;
+        color: $white;
+    }
+
+    .file--label:empty+.file--delete {
+        display: none;
+    }
+}

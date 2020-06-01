@@ -1,0 +1,65 @@
+// Variables
+@import 'variables';
+
+/*******************************************************************/
+/* DEPENDENCIES ****************************************************/
+/*******************************************************************/
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~datatables.net-bs4/css/dataTables.bootstrap4.css';
+
+// Fullcalendar
+@import '~@fullcalendar/core/main.css';
+@import '~@fullcalendar/daygrid/main.css';
+@import '~@fullcalendar/list/main.css';
+@import '~@fullcalendar/timegrid/main.css';
+
+
+@import '~pikaday/css/pikaday.css';
+// select2
+@import '~select2/dist/css/select2.min.css';
+@import '~@ttskch/select2-bootstrap4-theme/dist/select2-bootstrap4.min.css';
+
+// tagify
+@import '@yaireo/tagify/src/tagify';
+/*******************************************************************/
+/* APP *************************************************************/
+/*******************************************************************/
+@import '1-components/navbar';
+@import '1-components/sidebar';
+@import '1-components/calendar';
+@import '1-components/timepicker';
+@import '1-components/datatable';
+@import '1-components/modal';
+@import '1-components/form';
+@import '1-components/individual-select';
+@import '1-components/file';
+@import '1-components/positions';
+@import '1-components/figures';
+
+
+@import '2-elements/svg';
+@import '2-elements/rounded';
+@import '2-elements/registration-status';
+@import '2-elements/select-box';
+@import '2-elements/reference-mark';
+@import '2-elements/visually-hidden';
+@import '2-elements/background';
+
+@import '3-pages/seminar/create';
+@import '3-pages/letter/create';
+@import '3-pages/recycle/index';
+
+// @font-face {
+//     font-family: 'MYRIADPRO';
+//     src: url('/public/font/MYRIADPRO-REGULAR.woff');
+//     font-weight: 800;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'Hiragino-Sans';
+//     src: url('/public/font/Hiragino-Sans-GB-W6.otf');
+//     font-weight: 800;
+//     font-style: normal;
+// }

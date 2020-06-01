@@ -1,0 +1,12 @@
+.modal--close--float {
+    position: absolute;
+    right: 1rem;
+}
+
+.modal .hide--on--modal {
+    display: none;
+}
+
+.modal [hidden].show--on--modal {
+    display: inline-block !important;
+}

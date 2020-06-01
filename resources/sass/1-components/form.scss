@@ -1,0 +1,104 @@
+.bg-form {
+    background-color: #ceeaf5;
+}
+
+.form--submit {
+    border: 2px solid #008bd5;
+}
+
+.form--common .form-group > label {
+    font-size: 24px;
+    font-weight: bold;
+    color: #777;
+}
+
+.form--common input[type='checkbox'] + label {
+    user-select: none;
+    cursor: pointer;
+}
+
+.form--common textarea[data-controller~='textarea'] {
+    resize: none;
+    overflow: hidden;
+}
+
+.form--common .show-on-form-confirm {
+    display: none;
+}
+
+.form--confirm .form--common {
+    label {
+        pointer-events: none;
+    }
+
+    input:not([type='checkbox'])[form-confirm],
+    textarea[form-confirm] {
+        background: transparent;
+        outline: none;
+        border: none;
+        font-weight: bold;
+        color: black;
+        pointer-events: none;
+        padding: 0;
+    }
+
+    input[type='checkbox'][form-confirm] {
+        &,
+        &:not(:checked) + label {
+            display: none;
+        }
+    }
+
+    select {
+        background: transparent;
+        outline: none;
+        border: none;
+        appearance: none;
+        user-select: none;
+        pointer-events: none;
+        font-weight: bold;
+    }
+
+    .hidden-on-form-confirm {
+        display: none;
+    }
+
+    .show-on-form-confirm {
+        display: block;
+    }
+
+    .invalid-feedback {
+        display: none;
+    }
+
+    .tagify.form-control {
+        background: transparent;
+        border: none;
+        user-select: none;
+        pointer-events: none;
+    }
+
+    .tagify__tag__removeBtn {
+        display: none;
+    }
+}
+
+input[type='checkbox'] {
+    &.checkbox--md {
+        transform: scale(1.5);
+    }
+
+    &.checkbox--lg {
+        transform: scale(2) translateX(3px);
+    }
+
+    &.checkbox--lg + label {
+        margin-left: 8px;
+        margin-top: 1px;
+        @extend .h4;
+    }
+}
+
+.form-element-disable-click {
+    pointer-events: none;
+}

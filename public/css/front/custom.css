@@ -1,0 +1,290 @@
+.thumb-in-1 img {
+    height: 100%;
+    border-radius: 10%
+}
+
+.item-i figure {
+    height: 145px;
+}
+
+.btn-school > a {
+    color: #747374;
+}
+
+
+#by_date > a, #by_calendar > a, #by_month > a {
+    color: #231916;
+}
+
+::placeholder {
+    color: lightgrey;
+}
+
+::-ms-input-placeholder {
+    color: lightgrey;
+}
+
+:-ms-input-placeholder {
+    color: lightgrey;
+}
+
+.preview a {
+    color: #0a0a0a;
+}
+
+.text-three {
+    margin-top: 40px;
+}
+
+.join textarea {
+    border: none;
+}
+
+.faq a {
+    width: 100%;
+}
+
+.logo_google {
+    width: 250px;
+}
+
+/*background image bouble*/
+#original_img_1 {
+    left: 30%;
+    border-radius: 100%;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    display: inline;
+}
+
+#original_img_2 {
+    flex: none;
+    left: 40%;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-top: 150px;
+}
+
+#original_img_3 {
+    left: 30%;
+    position: absolute;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-top: 300px;
+}
+
+#original_img_4 {
+    position: absolute;
+    left: 44%;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 450px;
+}
+
+#original_img_5 {
+    position: absolute;
+    left: 30%;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 550px;
+}
+
+ul.list-circle {
+    /*padding: 50px 0;*/
+    margin-bottom: 0;
+}
+
+ul.list-circle li img {
+    width: 150px;
+}
+
+ul.list-circle li:nth-child(even) {
+    text-align: right;
+}
+
+ul.list-circle li:nth-child(even) img {
+    width: 200px;
+}
+
+ul.list-circle li:nth-child(2) img {
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+ul.list-circle li:nth-child(3) img {
+    width: 200px;
+}
+
+ul.list-circle li:nth-child(4) img {
+    width: 150px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+#btn_text {
+    font-size: 1.4em;
+    padding: 17px !important;
+}
+
+.logo_app {
+    width: 270px;
+}
+
+ul.list-circle li:nth-child(5) img {
+    width: 400px;
+}
+
+a .cycle_product {
+    color: black;
+}
+
+.faq-end {
+    font-size: 1.2em;
+}
+
+.nav-top {
+    top: 0px;
+}
+
+.change-view, .title, .calendar .fc-ltr, .btn-school, #event_by_click_day {
+    position: relative;
+}
+
+figure.thumb_recycle {
+    border: 2px solid #6FC9F3;
+    /*margin: 10px 8px 2px 2px;*/
+    border-radius: 10px;
+    background: #fff;
+}
+
+a .btn-place {
+    background-color: #fff262 !important;
+    border: 2px solid #FFF462;
+    width: calc(100% - 40px);
+}
+
+figure.thumb_recycle img {
+    height: 100%;
+}
+
+#btn-edit a {
+    color: #ff0000;
+}
+
+.btn-check button {
+    width: 80%;
+    padding: 8px 5px;
+    float: inherit;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 12px;
+    box-shadow: 4px 3px 4px #8f8f8f;
+}
+
+.calendar .img-center {
+    height: 160px;
+}
+
+/*.btn-place {*/
+/*    margin-top: 20px;*/
+/*}*/
+
+/*for seminar css*/
+.seminar_select {
+    width:calc(100% - 40px);
+    margin: 0 auto !important;
+    padding-bottom: 9px;
+}
+.btn_seminar_apply {
+    background: #219478 !important;
+    border: 1px solid #219478 !important;
+}
+.btn_seminar_apply_help {
+    background: #008DCD !important;
+    border: 1px solid #008DCD !important;
+}
+.btn_seminar_help {
+    background: #C98B2F !important;
+    border: 1px solid #C98B2F !important;
+}
+.calendar-noti {
+    background: #F9C5DC;
+    margin: 2px -15px 5px;
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    color: #BE1E2D;
+}
+.fc-custom_link-button {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: #056FB8 !important;
+    font-weight: bold !important;
+}
+.seminar_student {
+    background: #B0C7E7;padding: 10px;
+    margin-bottom:15px; text-align: center;
+    margin-top: 15px;
+}
+
+.bg-slim{
+    font-size: 44px;
+    color: #C4292D;
+    text-align: center;
+    background: #F2E442;
+    margin-right: -15px;
+    margin-left: -15px;
+    font-weight: 800;
+    padding: 5px;
+    position: relative;
+}
+
+.bg-slim > h3{
+    margin: 5px 0;
+}
+
+.btn-notyet{
+    background: #7D7E81;
+    color: #fff;
+}
+
+/*contact-mail*/
+.form-group-contact-mail{
+    padding-bottom: 15px;
+}
+.form-group-contact-mail label {
+    font-size: 24px;
+}
+
+.form-group-contact-mail input, textarea {
+    width: 100%;
+    border: 1px solid;
+    padding: 5px 20px
+}
+
+.form-group-contact-mail span {
+    background-color: #be1d2c;
+    padding: 2px 10px;
+    color: white;
+    border-radius: 30px
+}
+
+/*end contact-mail*/
+.question ul li a:before{
+    content: initial;
+}
+.underline {
+    padding-bottom: 2px;
+    border-bottom: 3px solid #828387;
+}

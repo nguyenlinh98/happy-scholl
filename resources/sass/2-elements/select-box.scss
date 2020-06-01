@@ -1,0 +1,23 @@
+.select-box {
+    &>input[type="checkbox"] {
+        visibility: hidden;
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+        font-size: 0/0pt;
+    }
+
+    input[type="checkbox"]+label.select-box--label {
+        display: inline-block;
+        border: 2px solid $black;
+        background: white;
+        width: 1.5em;
+        height: 1.5em;
+        margin-bottom: 0;
+        cursor: pointer;
+    }
+
+    input[type="checkbox"]:checked+label.select-box--label {
+        background: #ed1c24;
+    }
+}

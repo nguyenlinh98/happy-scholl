@@ -1,0 +1,20 @@
+body {
+    /*background: url("asset/bg-login.jpg");*/
+    background: url("asset/background-login.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    max-height: unset;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.form-control {
+   height: 100%;
+}
+.field-name {
+    font-size: 20pt;
+}
+input {
+    border: 1px solid black !important;
+    border-radius: unset!important;
+}

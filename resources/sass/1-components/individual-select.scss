@@ -1,0 +1,25 @@
+.individual-select {
+    .individual-select--select-class {
+        display: block;
+    }
+
+    .individual-select--select-student {
+        display: none;
+    }
+
+    &.step--select-student {
+        .individual-select--select-class {
+            display: none;
+        }
+
+        .individual-select--select-student {
+            display: block;
+        }
+    }
+
+    .tagify.form-control {
+        min-height: calc(1.6em + 0.75rem + 2px);
+        height: auto;
+    }
+
+}

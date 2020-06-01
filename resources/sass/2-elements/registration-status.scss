@@ -1,0 +1,52 @@
+.registration-status {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    color: black;
+
+    &.registration-status--cross {
+
+        &::before,
+        &::after {
+            display: block;
+            position: absolute;
+            background: $dark;
+            background: currentColor;
+            content: '';
+            width: 1px;
+            top: 0;
+            bottom: 0;
+            transform-origin: center center;
+            left: calc(50% - 1px);
+        }
+
+        &::before {
+            transform: rotate(45deg);
+        }
+
+        &::after {
+            transform: rotate(-45deg);
+        }
+    }
+
+    &.registration-status--circle {
+
+        border: 1px solid currentColor;
+        border-radius: 50%;
+    }
+
+    &.registration-status--bold {
+        &.registration-status--cross {
+
+            &::before,
+            &::after {
+                width: 3px;
+            }
+        }
+
+        &.registration-status--circle {
+            border-width: 3px;
+        }
+    }
+}

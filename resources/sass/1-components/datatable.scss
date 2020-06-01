@@ -1,0 +1,89 @@
+.datatable {
+    thead .sorting:before,
+    thead .sorting:after,
+    thead .sorting_asc:before,
+    thead .sorting_asc:after,
+    thead .sorting_desc:before,
+    thead .sorting_desc:after,
+    thead .sorting_asc_disabled:before,
+    thead .sorting_asc_disabled:after,
+    thead .sorting_desc_disabled:before,
+    thead .sorting_desc_disabled:after {
+        bottom: 0.6em !important;
+    }
+
+    .datatable--header--row:hover {
+        background: none;
+    }
+
+    .datatable--header--cell {
+        border: none;
+        padding-bottom: 6px;
+
+        &:not(.datatable--header--delete) {
+            background: $datatable-header-color;
+
+            &:not(:last-of-type) {
+                border-right: 2px solid $white;
+            }
+
+            &:nth-of-type(1) {
+                background: rgba($datatable-header-color, 0.2);
+            }
+
+            &:nth-of-type(2) {
+                background: rgba($datatable-header-color, 0.4);
+            }
+
+            &:nth-of-type(3) {
+                background: rgba($datatable-header-color, 0.6);
+            }
+
+            &:nth-of-type(4) {
+                background: rgba($datatable-header-color, 0.8);
+            }
+
+            &:hover {
+                background: $datatable-header-color;
+            }
+        }
+    }
+
+    .datatable--header--delete {
+        background: #ed1c24;
+        color: white;
+        display: none;
+    }
+
+    .datatable--delete--cell {
+        display: none;
+    }
+}
+
+.toggle--delete-column {
+    .datatable--header--delete,
+    .datatable--delete--cell {
+        display: table-cell;
+    }
+}
+
+.toggle--delete-column--on {
+    display: none;
+}
+
+.toggle--delete-column {
+    .toggle--delete-column--off {
+        display: none;
+    }
+
+    .toggle--delete-column--on {
+        display: block;
+    }
+}
+
+.dataTables_filter {
+    display: none;
+}
+.dataTables_wrapper > .row:first-of-type {
+    display: none;
+}

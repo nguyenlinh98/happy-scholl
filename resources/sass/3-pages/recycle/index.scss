@@ -1,0 +1,33 @@
+.recycle-status {
+
+    // status = 0
+    &--delete {
+        display: none;
+    }
+
+    // status = 1
+    &--selling:not(:hover) {
+        background-color: #ffffff !important;
+    }
+
+    // status = 2
+    &--waiting_bring:not(:hover) {
+        background-color: #faf47d !important;
+    }
+
+    // status = 3
+    &--waiting_carry:not(:hover) {
+        background-color: #51b1e8 !important;
+    }
+
+    // status = 4
+    &--waiting_receipt:not(:hover) {
+        background-color: #356df0 !important;
+    }
+
+    // status = 5
+    &--completed:not(:hover) {
+        background-color: #c4c4c4 !important;
+    }
+
+}
